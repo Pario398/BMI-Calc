@@ -17,8 +17,8 @@ This is a short project to gain experience with Panda as well as reading and mod
 
 ## Functions:
 
-1. `**bmiCalc(weight, height)**`: Calculates the BMI (Body Mass Index) given the weight (in kilograms) and height (in meters) using the formula **BMI = weight / (height^2)**. The result is rounded to two decimal places.
-2. `**bmiStat(bmi)**`: Determines the weight status based on the provided BMI value. It takes the BMI as input and returns the weight status as a string. The weight status categories are defined as follows:
+1. `bmiCalc(weight, height)`: Calculates the BMI (Body Mass Index) given the weight (in kilograms) and height (in meters) using the formula **BMI = weight / (height^2)**. The result is rounded to two decimal places.
+2. `bmiStat(bmi)`: Determines the weight status based on the provided BMI value. It takes the BMI as input and returns the weight status as a string. The weight status categories are defined as follows:
 * Underweight: BMI >= 11.9 and < 18.5
 * Normal weight: BMI >= 18.5 and < 24.9
 * Overweight: BMI >= 24.9 and < 29.9
